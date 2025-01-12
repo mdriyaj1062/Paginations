@@ -1,0 +1,118 @@
+/* Style for the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+ 
+  }
+  
+  /* Style for table headers */
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Header background color */
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Even row background color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Font size for data cells */
+  td {
+    font-size: 14px;
+  }
+  
+
+
+  /* Pagination Container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  /* Page Item Styles */
+  .pageItem,
+  .nextPage {
+    margin: 0 5px;
+  }
+  
+  .page-item button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  /* Active Page Button */
+  .page-item.active button {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  } 
+  .page-item button{
+    margin: 1px;
+  }
+  
+  .page-item button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Disabled 'Prev' or 'Next' Button */
+  .pageItem button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+  }
+  
+  /* Next Page Button Style */
+  .nextPage button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  .pageItem button{
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  /* Adding hover effect on Next Button */
+  .nextPage button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Centering Pagination */
+  nav.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  

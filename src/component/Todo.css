@@ -1,0 +1,58 @@
+bod{
+    background-color: bisque;
+}
+.main-container{
+ 
+   text-align: center;
+ 
+ 
+}
+.main-container h1{
+    color: rgb(82, 134, 117);
+}
+form{
+    width: 900px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+ }
+ form input{
+     flex-basis: 70%;
+     border-radius: 12px;
+ }
+ form button{
+     flex-basis: 20%;
+     margin-left: 20px;
+     border-radius: 12px;
+ }
+ .outer-div{
+    width: 450px;
+    height: 30px;
+    margin-left: 400px;
+    margin-right: 70px;
+ }
+.outer-div ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 12px;
+}
+.outer-div ul li{
+    color: white;
+    padding: 10px;
+    background-color: black;
+    text-align: left;
+    position: relative;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.outer-div ul li button{
+ right: 20px;
+ position: absolute;
+ cursor: pointer;
+}
+
+
