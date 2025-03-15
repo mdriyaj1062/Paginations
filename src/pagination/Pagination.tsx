@@ -23,7 +23,7 @@ const Pagination=()=>{
     console.log('numbers:',numbers)
 
     useEffect(()=>{
-     fetch('https://jsonplaceholder.org/users')
+     fetch('https://jsonplaceholder.typicode.com/users')
      .then((response)=>response.json())
      .then((data)=>setData(data))
     },[])
